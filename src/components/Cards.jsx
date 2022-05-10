@@ -6,4 +6,4 @@ class Cards extends React.Component {
 	}
 }
 
-export default Cards;
+// export default Cards;
