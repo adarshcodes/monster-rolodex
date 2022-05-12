@@ -40,7 +40,7 @@ class App extends React.Component {
 				{/* <header className="app-header">
 					<Cards />
 				</header> */}
-				<SearchField onSearchChange={onSearchChange} />
+				<SearchField onChangeHandler={onSearchChange} />
 
 				<CardList monsters={filteredMonsters} />
 			</main>

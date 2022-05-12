@@ -11,7 +11,7 @@ class CardList extends Component {
 					return (
 						<div className="card-container" key={id}>
 							<img
-								src={`https://robohash.org/${id}?set=set2&size=100x100`}
+								src={`https://robohash.org/${id}?set=set2&size=300x300`}
 								alt={`monster ${name}`}
 							/>
 							<h2>{name}</h2>
