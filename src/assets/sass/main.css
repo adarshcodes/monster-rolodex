@@ -25,6 +25,13 @@ body {
   margin-top: 5rem;
 }
 
+.app-heading {
+  font-size: 8rem;
+  margin: 2rem 0 4rem 0;
+  font-family: "Bigelow Rules", sans-serif;
+  color: #a2caff;
+}
+
 body {
   font-family: "Rubik", sans-serif;
 }

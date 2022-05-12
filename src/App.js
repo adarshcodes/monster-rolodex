@@ -37,11 +37,8 @@ class App extends React.Component {
 
 		return (
 			<main className="app">
-				{/* <header className="app-header">
-					<Cards />
-				</header> */}
+				<h1 className="app-heading">Monsters Rolodex</h1>
 				<SearchField onChangeHandler={onSearchChange} />
-
 				<CardList monsters={filteredMonsters} />
 			</main>
 		);
